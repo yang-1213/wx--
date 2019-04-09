@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/index",
+    "pages/bar/index",
+    "pages/news/index"
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#00a4ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/home_2.png",
+      "selectedIconPath": "images/icon/home_1.png"
+    },
+    {
+      "pagePath": "pages/news/index",
+      "text": "信息",
+      "iconPath": "images/icon/news_2.png",
+      "selectedIconPath": "images/icon/news_1.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "images/icon/center_2.png",
+      "selectedIconPath": "images/icon/center_1.png"
+    }
+    
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "夜的第七章！",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  }
+}

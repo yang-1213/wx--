@@ -1,0 +1,28 @@
+/**app.wxss**/
+
+/* 10rpx */
+
+.interval {
+  height: 50rpx;
+  /* box-shadow: 0 50rpx 10rpx 0 #f3f3f3 inset; */
+  background-color:#f3f3f3 ;
+}
+
+.row {
+  /* margin-left: calc(100%-20rpx);  */
+  position: relative;
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.row::before {
+  content: "";
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  /* top: 0; */
+  /* right: 0; */
+  transform: rotateZ(45deg);
+  border-top: 1rpx solid black;
+  border-right: 1rpx solid black;
+}
