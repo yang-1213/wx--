@@ -34,6 +34,18 @@ App({
       }
     })
   },
+  onShow:function(data){
+    console.log(data)
+  },
+  /**
+   * 小程序要打开的页面不存在时触发
+   * 
+   */
+  onPageNotFound(parmes){
+    wx.switchTab({
+      url: 'pages/my/index'
+    }) // 如果是 tabbar 页面，请使用 wx.switchTab
+  },
   globalData: {
     userInfo: null
   }

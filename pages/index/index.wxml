@@ -14,7 +14,9 @@
   </button>
 </view>
 
-
+<navigator url='/pages/my/index' open-type='switchTab'>
+  跳转到其他页面
+</navigator>
 
 
 
