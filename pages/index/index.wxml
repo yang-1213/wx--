@@ -1,22 +1,4 @@
 <!--index.wxml-->
 
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-
-<view>
-  <button open-type='getUserInfo' bindgetuserinfo="getUserInfo">
-    这是一个按钮
-  </button>
-</view>
-
-<navigator url='/pages/my/index' open-type='switchTab'>
-  跳转到其他页面
-</navigator>
-
 
 

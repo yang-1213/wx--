@@ -1,7 +1,6 @@
 {
     "navigationBarBackgroundColor": "#00a4ff",
-    "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "小程序首页",
+    "navigationBarTextStyle": "black",
     "backgroundColor": "#00a4ff",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": true

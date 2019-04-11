@@ -8,6 +8,9 @@
   background-color:#f3f3f3 ;
 }
 
+/**
+  *右箭头
+ **/
 .row {
   /* margin-left: calc(100%-20rpx);  */
   position: relative;

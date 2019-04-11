@@ -1,30 +1,29 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/my/index",
-    "pages/bar/index",
-    "pages/news/index"
+    "pages/like/index",
+    "pages/book/index"
   ],
   "tabBar": {
     "borderStyle": "white",
-    "selectedColor": "#00a4ff",
+    "selectedColor": "#000",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "images/icon/home_2.png",
-      "selectedIconPath": "images/icon/home_1.png"
+      "text": "流行",
+      "iconPath": "images/icon/classic.png",
+      "selectedIconPath": "images/icon/classic@highlight.png"
     },
     {
-      "pagePath": "pages/news/index",
-      "text": "信息",
-      "iconPath": "images/icon/news_2.png",
-      "selectedIconPath": "images/icon/news_1.png"
+      "pagePath": "pages/book/index",
+      "text": "书单",
+      "iconPath": "images/icon/book.png",
+      "selectedIconPath": "images/icon/book@highlight.png"
     },
     {
-      "pagePath": "pages/my/index",
-      "text": "我的",
-      "iconPath": "images/icon/center_2.png",
-      "selectedIconPath": "images/icon/center_1.png"
+      "pagePath": "pages/like/index",
+      "text": "喜欢",
+      "iconPath": "images/icon/my.png",
+      "selectedIconPath": "images/icon/my@highlight.png"
     }
     
     ]
@@ -32,7 +31,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "夜的第七章！",
+    "navigationBarTitleText": "旧岛",
     "navigationBarTextStyle":"black"
   },
   "networkTimeout":{

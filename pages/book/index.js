@@ -1,4 +1,4 @@
-// pages/news/index.js
+// pages/book/index.js
 Page({
 
   /**
