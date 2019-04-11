@@ -1,4 +1,24 @@
-<!--index.wxml-->
-
-
-
+<swiper current="{{current}}">
+  <block wx:for="{{[1,2,3,4,5,6,7]}}">
+    <swiper-item>
+      <view class='header'>
+        <view class='left'>
+          <view class='day'>
+            <text>No.</text>08
+          </view>
+          <view class="year">
+            <text>四月</text>
+            <text>2019</text>
+          </view>
+        </view>
+        <view class='right'>
+          <view class='love'>
+            <view>1500</view>
+          </view>
+          <!-- 分享功能 -->
+          <view class='share'></view>
+        </view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

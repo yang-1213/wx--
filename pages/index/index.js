@@ -7,7 +7,6 @@ const API = require("../../wxApi/main.js");
 const util = require("../../utils/util.js");
 
 Page({
-    onLoad(){
-      console.log(util.formatTime(new Date()));
-    }
+
 })
+

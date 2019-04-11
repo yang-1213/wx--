@@ -5,12 +5,13 @@
 .interval {
   height: 50rpx;
   /* box-shadow: 0 50rpx 10rpx 0 #f3f3f3 inset; */
-  background-color:#f3f3f3 ;
+  background-color: #f3f3f3;
 }
 
 /**
   *右箭头
  **/
+
 .row {
   /* margin-left: calc(100%-20rpx);  */
   position: relative;
@@ -23,9 +24,42 @@
   position: absolute;
   width: 20rpx;
   height: 20rpx;
-  /* top: 0; */
-  /* right: 0; */
+  /* top: 0; *//* right: 0; */
   transform: rotateZ(45deg);
   border-top: 1rpx solid black;
   border-right: 1rpx solid black;
+}
+
+page {
+  background-color: #00a4ff;
+}
+
+/* 爱心 */
+
+.love {
+  width: 30rpx;
+  height: 30rpx;
+  background: red;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.love::before, .love::after {
+  width: 30rpx;
+  height: 30rpx;
+  content: "";
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.love:before {
+  bottom: 0;
+  left: -15rpx;
+}
+
+.love:after {
+  left: 0;
+  top: -15rpx;
 }
