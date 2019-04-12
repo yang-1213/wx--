@@ -23,20 +23,18 @@
         <image mode="aspectFill" src="https://img.alicdn.com/tfs/TB1B4gpQxnaK1RjSZFtXXbC2VXa-520-280.png_q90_.webp"></image>
         <!-- 分类 -->
         <view class='tag'>
-          <text class='iconfont iconyezi'></text>
-          电影
+          <text class='iconfont iconyezi'></text> 电影
           <text class='iconfont iconyezi'></text>
         </view>
       </view>
-        <!-- 文本 -->
-        <text class="abstract">
+      <!-- 文本 -->
+      <text class="abstract">
           人生不能像做菜，把所有的料准备好才下锅
         </text>
-        <view class='title'>
-          <text class='iconfont iconbofang' bindtap='reduceCurrent'></text>  
-          李安《饮食男女》
-          <text class='iconfont iconbofang' bindtap='addCurrent'></text> 
-        </view>
+      <view class='title'>
+        <text class='iconfont iconbofang' bindtap='reduceCurrent'></text> 李安《饮食男女》
+        <text class='iconfont iconbofang' bindtap='addCurrent'></text>
+      </view>
     </swiper-item>
   </block>
 </swiper>

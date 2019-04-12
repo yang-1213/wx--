@@ -1,2 +1,20 @@
-<!--pages/book/index.wxml-->
-<text>pages/book/index.wxml</text>
+<view class="header">
+  <icon type="search" size='30rpx' color="#999999" />
+  <text>搜索图书名称</text>
+</view>
+
+<view class='content'>
+  <view class='title'>
+    <text class='iconfont iconyezi'></text>
+    精选
+    <text class='iconfont iconyezi'></text>
+  </view>
+  <view class='book-item'>
+    <view wx:for="[1,2,3,4,5,6,7]" class="item">
+      <image class='book-img' src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=495f6099b31bb0518b24b42a067bda77/b3fb43166d224f4ac08c1fa809f790529822d170.jpg" mode='aspectFill'></image>
+      <view class='ellipsis name'>爱你就像爱生命像爱生命</view>
+      <view class='author'>李银河</view>
+      <view class='appraise'>233 喜欢 · 68 短评</view>
+    </view>
+  </view>
+</view>
