@@ -1,5 +1,5 @@
 <swiper current="{{current}}">
-  <block wx:for="{{[1,2,3,4,5,6,7]}}">
+  <block wx:for="{{indexPage}}" wx:key="index">
     <swiper-item>
       <view class='header'>
         <view class='left'>
@@ -12,13 +12,31 @@
           </view>
         </view>
         <view class='right'>
-          <view class='love'>
+          <view class='love cancel-love'>
             <view>1500</view>
           </view>
           <!-- 分享功能 -->
-          <view class='share'></view>
+          <text class='share iconfont iconfenxiang'></text>
         </view>
       </view>
+      <view class="kind">
+        <image mode="aspectFill" src="https://img.alicdn.com/tfs/TB1B4gpQxnaK1RjSZFtXXbC2VXa-520-280.png_q90_.webp"></image>
+        <!-- 分类 -->
+        <view class='tag'>
+          <text class='iconfont iconyezi'></text>
+          电影
+          <text class='iconfont iconyezi'></text>
+        </view>
+      </view>
+        <!-- 文本 -->
+        <text class="abstract">
+          人生不能像做菜，把所有的料准备好才下锅
+        </text>
+        <view class='title'>
+          <text class='iconfont iconbofang' bindtap='reduceCurrent'></text>  
+          李安《饮食男女》
+          <text class='iconfont iconbofang' bindtap='addCurrent'></text> 
+        </view>
     </swiper-item>
   </block>
 </swiper>
