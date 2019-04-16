@@ -40,9 +40,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "bar",
-					"pathName": "pages/bar/index",
+					"pathName": "pages/book/index",
+					"query": "",
 					"scene": null
 				}
 			]

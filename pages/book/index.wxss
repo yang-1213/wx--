@@ -1,1 +1,69 @@
-/* pages/book/index.wxss */
+/* 头部搜搜栏 */
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 690rpx;
+	height: 68rpx;
+  color: #999;
+  font-size: 34rpx;
+	background-color: #f7f7f7;
+	border-radius: 34rpx;
+  margin: 20rpx auto;
+}
+.header icon{
+  margin-right: 10rpx;
+}
+
+/* 书单区 */
+.content{
+  color: #191cad85;
+  background-color: #f9f9f9;
+}
+/* 标题 */
+.content .title{
+  height: 80rpx;
+  font-size: 34rpx;
+  text-align: center;
+  padding-top: 36rpx; 
+}
+.title .iconyezi{
+  color: #00a4ff;
+}
+/* 书单 */
+.content .book-item{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.book-item .item{
+  width: 240rpx;
+  border-radius: 4px;
+  box-shadow: 3px 5px 20rpx 0px 
+		rgba(171, 171, 171, 0.16);
+    margin:0 0 58rpx 88rpx;
+	font-family: PingFang-SC-Regular;
+}
+
+.item .book-img{
+  height: 222rpx;
+  border-radius: 4px 4px 0 0;
+}
+.item .name{
+  margin-top: 20rpx;
+	font-size: 24rpx;
+  text-indent: 1em;
+  padding-right: 24rpx;
+	color: #1f1f1f;
+}
+.item .author,.item .appraise{
+	font-size: 20rpx;
+	color: #999999;
+}
+.item .author{
+  padding: 5rpx 0 0 24rpx;
+}
+.item .appraise{
+  text-align: right;
+  padding: 25rpx 20rpx 16rpx 0;
+}
