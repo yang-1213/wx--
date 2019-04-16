@@ -1,1 +1,33 @@
 /* component/search/search.wxss */
+@import "../../css/font.wxss";
+.search{
+  position: relative;
+	height: 68rpx;
+  font-size: 30rpx;
+	background-color: #f7f7f7;
+  padding: 20rpx 10rpx;
+}
+
+.search-input{
+  width: 500rpx;
+  height: 100%;
+  border-radius:  34rpx;
+  border: 1px solid black;
+  padding-left: 2em;
+}
+
+.iconsousuo{
+  position: absolute;
+  top: 50%;
+  left: 40rpx;
+  color: red;
+  font-size: 40rpx;
+  margin-top: -25rpx;
+}
+.iconguanbi1{
+  position: absolute;
+  top: 50%;
+  left: 100rpx;
+  color: red;
+  font-size: 40rpx;
+}

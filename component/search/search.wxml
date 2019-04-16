@@ -1,2 +1,6 @@
 <!--component/search/search.wxml-->
-<text>component/search/search.wxml</text>
+<view class='search'>
+  <input placeholder="书籍名" class='search-input' placeholder-style="color:#999"/>
+  <icon class="iconfont iconsousuo"></icon>
+  <icon class="iconfont iconguanbi1"></icon>
+</view>

@@ -19,6 +19,7 @@
 .content{
   color: #191cad85;
   background-color: #f9f9f9;
+  border-top: 5rpx solid rgb(231, 231, 231);
 }
 /* 标题 */
 .content .title{
